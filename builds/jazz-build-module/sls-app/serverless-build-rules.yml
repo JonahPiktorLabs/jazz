@@ -69,8 +69,8 @@ provider:
     sbr-render: config-wins
     sbr-constraint:
       sbr-enum:
-        - nodejs10.x
-        - nodejs12.x
+        - nodejs14.x
+        - nodejs16.x
         - java8
         - java11
         - python3.6
@@ -78,7 +78,7 @@ provider:
         - go1.x
     sbr-value:
       sbr-formula: ${config.providerRuntime}
-      sbr-example: nodejs10.x
+      sbr-example: nodejs14.x
     sbr-mandatory: true
 
 
@@ -583,8 +583,8 @@ function:
       sbr-render: config-wins
       sbr-constraint:
         sbr-enum:
-          - nodejs10.x
-          - nodejs12.x
+          - nodejs14.x
+          - nodejs16.x
           - java8
           - java11
           - python3.6
@@ -592,7 +592,7 @@ function:
           - go1.x
       sbr-value:
         sbr-formula: ${config.providerRuntime}
-        sbr-example: nodejs10.x
+        sbr-example: nodejs14.x
 
     timeout: # in seconds 1 sec to 15 mins
       sbr-type: int

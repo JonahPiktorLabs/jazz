@@ -468,8 +468,8 @@ export class CreateServiceComponent implements OnInit {
 
         case 'java8' : 
         case 'java11': this.deploymentDescriptorText = this.deploymentDescriptorTextJava; break;
-        case 'nodejs10.x' : 
-        case 'nodejs12.x' : this.deploymentDescriptorText = this.deploymentDescriptorTextNodejs; break;
+        case 'nodejs14.x' : 
+        case 'nodejs16.x' : this.deploymentDescriptorText = this.deploymentDescriptorTextNodejs; break;
         case 'go1.x' : this.deploymentDescriptorText = this.deploymentDescriptorTextgo; break;
         case 'python3.6' : 
         case 'python3.8' : this.deploymentDescriptorText = this.deploymentDescriptorTextpython; break;
